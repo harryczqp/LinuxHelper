@@ -1,0 +1,1 @@
+dotnet Siger.Middlelayer.ApiGateway.dll --port 8100

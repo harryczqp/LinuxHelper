@@ -1,0 +1,21 @@
+2018/09/07 15:12:00 [I] [service.go:130] frps tcp listen on 0.0.0.0:6353
+2018/09/07 15:12:00 [I] [service.go:139] frps kcp listen on udp 0.0.0.0:6353
+2018/09/07 15:12:00 [I] [service.go:172] http service listen on 0.0.0.0:6000
+2018/09/07 15:12:00 [I] [service.go:193] https service listen on 0.0.0.0:6001
+2018/09/07 15:12:00 [I] [service.go:206] nat hole udp service listen on 0.0.0.0:6354
+2018/09/07 15:12:00 [I] [service.go:216] Dashboard listen on 0.0.0.0:6355
+2018/09/07 15:12:00 [I] [root.go:207] Start frps success
+2018/09/27 16:21:40 [I] [service.go:130] frps tcp listen on 0.0.0.0:6353
+2018/09/27 16:21:40 [I] [service.go:139] frps kcp listen on udp 0.0.0.0:6353
+2018/09/27 16:21:40 [I] [service.go:172] http service listen on 0.0.0.0:6000
+2018/09/27 16:21:40 [I] [service.go:193] https service listen on 0.0.0.0:6001
+2018/09/27 16:21:40 [I] [service.go:206] nat hole udp service listen on 0.0.0.0:6354
+2018/09/27 16:21:40 [I] [service.go:216] Dashboard listen on 0.0.0.0:6355
+2018/09/27 16:21:40 [I] [root.go:207] Start frps success
+2018/09/27 16:22:31 [I] [service.go:130] frps tcp listen on 0.0.0.0:6353
+2018/09/27 16:22:31 [I] [service.go:139] frps kcp listen on udp 0.0.0.0:6353
+2018/09/27 16:22:31 [I] [service.go:172] http service listen on 0.0.0.0:6000
+2018/09/27 16:22:31 [I] [service.go:193] https service listen on 0.0.0.0:6001
+2018/09/27 16:22:31 [I] [service.go:206] nat hole udp service listen on 0.0.0.0:6354
+2018/09/27 16:22:31 [I] [service.go:216] Dashboard listen on 0.0.0.0:6355
+2018/09/27 16:22:31 [I] [root.go:207] Start frps success

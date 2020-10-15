@@ -1,0 +1,7 @@
+{
+"listen": ":8080",
+"target": ":8088",
+"key": "admin",
+"crypt": "aes",
+"mode": "fast2",
+}

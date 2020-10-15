@@ -1,0 +1,47 @@
+2019/07/15 22:08:06 [I] [service.go:139] frps tcp listen on 0.0.0.0:6353
+2019/07/15 22:08:06 [I] [service.go:148] frps kcp listen on udp 0.0.0.0:6353
+2019/07/15 22:08:06 [I] [service.go:221] nat hole udp service listen on 0.0.0.0:1400
+2019/07/15 22:08:06 [I] [service.go:232] Dashboard listen on 0.0.0.0:6355
+2019/07/15 22:08:06 [I] [root.go:204] Start frps success
+2019/07/15 22:10:00 [I] [service.go:139] frps tcp listen on 0.0.0.0:6353
+2019/07/15 22:10:00 [I] [service.go:148] frps kcp listen on udp 0.0.0.0:6353
+2019/07/15 22:10:00 [I] [service.go:221] nat hole udp service listen on 0.0.0.0:1400
+2019/07/15 22:10:00 [I] [service.go:232] Dashboard listen on 0.0.0.0:6355
+2019/07/15 22:10:00 [I] [root.go:204] Start frps success
+2019/07/15 22:13:39 [I] [service.go:139] frps tcp listen on 0.0.0.0:6353
+2019/07/15 22:13:39 [I] [service.go:148] frps kcp listen on udp 0.0.0.0:6353
+2019/07/15 22:13:39 [I] [service.go:221] nat hole udp service listen on 0.0.0.0:1400
+2019/07/15 22:13:39 [I] [service.go:232] Dashboard listen on 0.0.0.0:6355
+2019/07/15 22:13:39 [I] [root.go:204] Start frps success
+2019/07/15 22:14:03 [I] [dashboard_api.go:65] Http request: [/api/serverinfo]
+2019/07/15 22:14:03 [I] [dashboard_api.go:58] Http response [/api/serverinfo]: code [200]
+2019/07/15 22:14:06 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/15 22:14:06 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]
+2019/07/15 22:14:07 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/15 22:14:07 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/15 22:39:01 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/15 22:39:01 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]
+2019/07/15 22:39:02 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/15 22:39:02 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/15 22:39:02 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/15 22:39:02 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/15 22:39:03 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/15 22:39:03 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/15 22:39:04 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/15 22:39:04 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/15 22:39:04 [I] [dashboard_api.go:65] Http request: [/api/serverinfo]
+2019/07/15 22:39:04 [I] [dashboard_api.go:58] Http response [/api/serverinfo]: code [200]
+2019/07/15 22:39:06 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/15 22:39:06 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]
+2019/07/15 22:46:32 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/15 22:46:32 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]
+2019/07/15 23:10:36 [I] [service.go:349] client login info: ip [116.136.21.152:39675] version [0.22.0] hostname [] os [linux] arch [arm]
+2019/07/15 23:10:36 [I] [tcp.go:66] [0e641f9e68c67244] [ryzen] tcp proxy listen port [1419]
+2019/07/15 23:10:36 [I] [control.go:398] [0e641f9e68c67244] new proxy [ryzen] success
+2019/07/15 23:10:36 [I] [control.go:398] [0e641f9e68c67244] new proxy [zqb_p2p_8080] success
+2019/07/15 23:10:36 [I] [tcp.go:66] [0e641f9e68c67244] [zqb] tcp proxy listen port [1402]
+2019/07/15 23:10:36 [I] [control.go:398] [0e641f9e68c67244] new proxy [zqb] success
+2019/07/15 23:16:02 [I] [dashboard_api.go:65] Http request: [/api/serverinfo]
+2019/07/15 23:16:02 [I] [dashboard_api.go:58] Http response [/api/serverinfo]: code [200]
+2019/07/15 23:16:04 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/15 23:16:04 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]

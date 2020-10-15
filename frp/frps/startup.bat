@@ -1,0 +1,1 @@
+@reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v "frps.bat" /d "C:\Program Files\frps\frps.bat" /f

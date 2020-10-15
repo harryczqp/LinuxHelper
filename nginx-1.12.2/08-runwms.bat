@@ -1,0 +1,1 @@
+dotnet Siger.ApiWMS.dll --port 8006

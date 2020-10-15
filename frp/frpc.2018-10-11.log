@@ -1,0 +1,210 @@
+2018/10/02 11:38:52 [I] [proxy_manager.go:300] proxy removed: []
+2018/10/02 11:38:52 [I] [proxy_manager.go:310] proxy added: [Ryzen p2p_tcp]
+2018/10/02 11:38:52 [I] [proxy_manager.go:333] visitor removed: []
+2018/10/02 11:38:52 [I] [proxy_manager.go:342] visitor added: []
+2018/10/02 11:38:52 [I] [control.go:246] [e8124e16f09a0403] login to server success, get run id [e8124e16f09a0403], server udp port [7901]
+2018/10/02 11:38:52 [I] [control.go:169] [e8124e16f09a0403] [Ryzen] start proxy success
+2018/10/02 11:38:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:39:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:40:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:41:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:42:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:43:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:44:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:45:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:46:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:47:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:48:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:49:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:50:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:51:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:52:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:53:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:54:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:55:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:56:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:57:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/02 11:58:52 [W] [control.go:167] [e8124e16f09a0403] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 08:15:56 [I] [proxy_manager.go:300] proxy removed: []
+2018/10/06 08:15:56 [I] [proxy_manager.go:310] proxy added: [Ryzen p2p_tcp]
+2018/10/06 08:15:56 [I] [proxy_manager.go:333] visitor removed: []
+2018/10/06 08:15:56 [I] [proxy_manager.go:342] visitor added: []
+2018/10/06 08:15:56 [I] [control.go:246] [46d78aca6bb89432] login to server success, get run id [46d78aca6bb89432], server udp port [7901]
+2018/10/06 08:15:57 [I] [control.go:169] [46d78aca6bb89432] [Ryzen] start proxy success
+2018/10/06 08:15:57 [I] [control.go:169] [46d78aca6bb89432] [p2p_tcp] start proxy success
+2018/10/06 08:18:54 [I] [proxy_manager.go:300] proxy removed: []
+2018/10/06 08:18:54 [I] [proxy_manager.go:310] proxy added: [Ryzen p2p_tcp]
+2018/10/06 08:18:54 [I] [proxy_manager.go:333] visitor removed: []
+2018/10/06 08:18:54 [I] [proxy_manager.go:342] visitor added: []
+2018/10/06 08:18:54 [I] [control.go:246] [a097e91a6f18d6ad] login to server success, get run id [a097e91a6f18d6ad], server udp port [7901]
+2018/10/06 08:18:54 [I] [control.go:169] [a097e91a6f18d6ad] [Ryzen] start proxy success
+2018/10/06 08:18:54 [I] [control.go:169] [a097e91a6f18d6ad] [p2p_tcp] start proxy success
+2018/10/06 10:19:04 [I] [proxy_manager.go:300] proxy removed: []
+2018/10/06 10:19:04 [I] [proxy_manager.go:310] proxy added: [Ryzen p2p_tcp]
+2018/10/06 10:19:04 [I] [proxy_manager.go:333] visitor removed: []
+2018/10/06 10:19:04 [I] [proxy_manager.go:342] visitor added: []
+2018/10/06 10:19:05 [I] [control.go:246] [093170120d08970a] login to server success, get run id [093170120d08970a], server udp port [7901]
+2018/10/06 10:19:05 [I] [control.go:169] [093170120d08970a] [Ryzen] start proxy success
+2018/10/06 10:19:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:20:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:21:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:22:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:23:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:24:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:25:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:26:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:27:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:28:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:29:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:30:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:31:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:32:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:33:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:34:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:35:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:36:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:37:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:38:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:39:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:40:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:41:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:42:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:43:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:44:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:45:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:46:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:47:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:48:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:49:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:50:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:51:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:52:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:53:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:54:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:55:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:56:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:57:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:58:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 10:59:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:00:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:01:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:02:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:03:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:04:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:05:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:06:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:07:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:08:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:09:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:10:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:11:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:12:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:13:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:14:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:15:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:16:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:17:05 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:17:51 [E] [control.go:152] [093170120d08970a] work connection closed, EOF
+2018/10/06 11:17:51 [I] [control.go:308] [093170120d08970a] control writer is closing
+2018/10/06 11:17:51 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:17:51 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:17:52 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:17:52 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:17:54 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:17:54 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:17:58 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:17:58 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:18:06 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:18:06 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:18:22 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:18:34 [W] [control.go:410] [093170120d08970a] reconnect to server error: dial tcp: lookup jzs88.cn: no such host
+2018/10/06 11:18:54 [I] [control.go:407] [093170120d08970a] try to reconnect to server...
+2018/10/06 11:18:54 [I] [control.go:246] [093170120d08970a] login to server success, get run id [093170120d08970a], server udp port [7901]
+2018/10/06 11:18:54 [I] [control.go:169] [093170120d08970a] [Ryzen] start proxy success
+2018/10/06 11:18:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:19:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:20:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:21:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:22:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:23:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:24:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:25:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:26:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:27:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:28:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:29:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:30:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:31:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:32:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:33:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:34:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:35:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:36:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:37:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:38:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:39:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:40:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:41:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:42:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:43:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:44:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:45:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:46:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:47:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:48:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:49:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:50:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:51:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:52:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:53:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:54:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:55:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:56:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:57:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:58:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 11:59:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:00:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:01:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:02:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:03:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:04:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:05:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:06:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:07:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:08:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:09:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:10:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:11:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:12:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:13:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:14:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:15:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:16:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:17:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:18:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:19:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:20:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:21:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:22:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:23:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:24:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:25:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:26:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:27:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:28:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:29:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:30:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:31:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:32:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:33:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:34:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:35:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:36:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/06 12:37:54 [W] [control.go:167] [093170120d08970a] [p2p_tcp] start error: proxy name [p2p_tcp] is already in use
+2018/10/11 23:51:23 [I] [proxy_manager.go:300] proxy removed: []
+2018/10/11 23:51:23 [I] [proxy_manager.go:310] proxy added: [Ryzen p2p_tcp]
+2018/10/11 23:51:23 [I] [proxy_manager.go:333] visitor removed: []
+2018/10/11 23:51:23 [I] [proxy_manager.go:342] visitor added: []
+2018/10/11 23:51:23 [I] [control.go:246] [f43b417dbf27f2f9] login to server success, get run id [f43b417dbf27f2f9], server udp port [7901]
+2018/10/11 23:51:23 [I] [control.go:169] [f43b417dbf27f2f9] [Ryzen] start proxy success
+2018/10/11 23:51:23 [I] [control.go:169] [f43b417dbf27f2f9] [p2p_tcp] start proxy success

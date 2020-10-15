@@ -1,0 +1,4 @@
+2019/07/16 00:55:12 [I] [dashboard_api.go:173] Http request: [/api/proxy/udp]
+2019/07/16 00:55:12 [I] [dashboard_api.go:167] Http response [/api/proxy/udp]: code [200]
+2019/07/16 00:55:12 [I] [dashboard_api.go:173] Http request: [/api/proxy/tcp]
+2019/07/16 00:55:12 [I] [dashboard_api.go:167] Http response [/api/proxy/tcp]: code [200]
