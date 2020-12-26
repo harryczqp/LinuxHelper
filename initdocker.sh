@@ -61,3 +61,6 @@ docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/doc
 # firewall-cmd --permanent --zone=public --add-port=9000-10000/tcp
 # firewall-cmd --permanent --zone=public --add-port=9000-10000/udp
 # firewall-cmd reload
+
+# 安装ssr
+# docker run -e PASSWORD=12345678 --net=host --restart=always -d shadowsocks/shadowsocks-libev
