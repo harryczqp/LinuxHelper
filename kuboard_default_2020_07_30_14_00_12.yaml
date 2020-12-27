@@ -1,0 +1,438 @@
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: db-mysql
+  annotations:
+    k8s.kuboard.cn/workload: db-mysql
+    k8s.kuboard.cn/displayName: mysql
+    deployment.kubernetes.io/revision: '1'
+    k8s.kuboard.cn/ingress: 'false'
+    k8s.kuboard.cn/service: NodePort
+  labels:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-mysql
+spec:
+  selector:
+    matchLabels:
+      k8s.kuboard.cn/layer: db
+      k8s.kuboard.cn/name: db-mysql
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        k8s.kuboard.cn/layer: db
+        k8s.kuboard.cn/name: db-mysql
+    spec:
+      securityContext:
+        seLinuxOptions: {}
+      imagePullSecrets: []
+      restartPolicy: Always
+      initContainers: []
+      containers:
+        - image: mysql
+          imagePullPolicy: IfNotPresent
+          name: mysql
+          volumeMounts:
+            - name: mysqldb
+              mountPath: /var/lib/mysql
+              subPath: mysql
+              mountPropagation: None
+          args:
+            - '--lower_case_table_names=1'
+          resources:
+            limits:
+            requests:
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: '123456'
+          lifecycle: {}
+      volumes:
+        - name: mysqldb
+          persistentVolumeClaim:
+            claimName: common-db
+      dnsPolicy: ClusterFirst
+      dnsConfig: {}
+      terminationGracePeriodSeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  replicas: 1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: db-mysql
+  annotations:
+    k8s.kuboard.cn/workload: db-mysql
+    k8s.kuboard.cn/displayName: mysql
+  labels:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-mysql
+spec:
+  selector:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-mysql
+  type: NodePort
+  ports:
+    - port: 3306
+      targetPort: 3306
+      protocol: TCP
+      name: mysql
+      nodePort: 32081
+  sessionAffinity: None
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: db-redis
+  annotations:
+    k8s.kuboard.cn/workload: db-redis
+    deployment.kubernetes.io/revision: '1'
+    k8s.kuboard.cn/ingress: 'false'
+    k8s.kuboard.cn/service: NodePort
+  labels:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-redis
+spec:
+  selector:
+    matchLabels:
+      k8s.kuboard.cn/layer: db
+      k8s.kuboard.cn/name: db-redis
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        k8s.kuboard.cn/layer: db
+        k8s.kuboard.cn/name: db-redis
+    spec:
+      securityContext:
+        seLinuxOptions: {}
+      imagePullSecrets: []
+      restartPolicy: Always
+      initContainers: []
+      containers:
+        - image: redis
+          imagePullPolicy: IfNotPresent
+          name: redis
+          volumeMounts: []
+          resources:
+            limits:
+            requests:
+          env: []
+          lifecycle: {}
+      volumes: []
+      dnsPolicy: ClusterFirst
+      dnsConfig: {}
+      terminationGracePeriodSeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  replicas: 1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: db-redis
+  annotations:
+    k8s.kuboard.cn/workload: db-redis
+  labels:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-redis
+spec:
+  selector:
+    k8s.kuboard.cn/layer: db
+    k8s.kuboard.cn/name: db-redis
+  type: NodePort
+  ports:
+    - port: 6379
+      targetPort: 6379
+      protocol: TCP
+      name: redis
+      nodePort: 32082
+  sessionAffinity: None
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: gateway-ccmall
+  annotations:
+    k8s.kuboard.cn/workload: gateway-ccmall
+    deployment.kubernetes.io/revision: '2'
+    k8s.kuboard.cn/ingress: 'false'
+    k8s.kuboard.cn/service: NodePort
+  labels:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-ccmall
+spec:
+  selector:
+    matchLabels:
+      k8s.kuboard.cn/layer: gateway
+      k8s.kuboard.cn/name: gateway-ccmall
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        k8s.kuboard.cn/layer: gateway
+        k8s.kuboard.cn/name: gateway-ccmall
+    spec:
+      securityContext:
+        seLinuxOptions: {}
+      imagePullSecrets:
+        - name: aliyun
+      restartPolicy: Always
+      serviceAccountName: default
+      initContainers: []
+      containers:
+        - image: registry.cn-hangzhou.aliyuncs.com/harryczqp/ccmall.gateway
+          imagePullPolicy: Always
+          name: gateway
+          volumeMounts: []
+          resources:
+            limits:
+            requests:
+          env: []
+          lifecycle: {}
+      volumes: []
+      dnsPolicy: ClusterFirst
+      dnsConfig: {}
+      terminationGracePeriodSeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  replicas: 1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: gateway-ccmall
+  annotations:
+    k8s.kuboard.cn/workload: gateway-ccmall
+  labels:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-ccmall
+spec:
+  selector:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-ccmall
+  type: NodePort
+  ports:
+    - port: 5000
+      targetPort: 5000
+      protocol: TCP
+      name: gateway
+      nodePort: 31752
+  sessionAffinity: None
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: gateway-consul
+  annotations:
+    k8s.kuboard.cn/workload: gateway-consul
+    deployment.kubernetes.io/revision: '2'
+    k8s.kuboard.cn/ingress: 'false'
+    k8s.kuboard.cn/service: NodePort
+  labels:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-consul
+spec:
+  selector:
+    matchLabels:
+      k8s.kuboard.cn/layer: gateway
+      k8s.kuboard.cn/name: gateway-consul
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        k8s.kuboard.cn/layer: gateway
+        k8s.kuboard.cn/name: gateway-consul
+    spec:
+      securityContext:
+        seLinuxOptions: {}
+      imagePullSecrets: []
+      restartPolicy: Always
+      initContainers: []
+      containers:
+        - image: consul
+          imagePullPolicy: IfNotPresent
+          name: consul
+          volumeMounts:
+            - name: consuldata
+              mountPath: /consul/config
+              subPath: server1/consul/config
+              mountPropagation: None
+            - name: consuldata
+              mountPath: /consul/data
+              subPath: server1/consul/data
+              mountPropagation: None
+          resources:
+            limits:
+            requests:
+          env:
+            - name: CONSUL_BIND_INTERFACE
+              value: eth0
+          lifecycle: {}
+      volumes:
+        - name: consuldata
+          persistentVolumeClaim:
+            claimName: consul
+      dnsPolicy: ClusterFirst
+      dnsConfig: {}
+      terminationGracePeriodSeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  replicas: 1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: gateway-consul
+  annotations:
+    k8s.kuboard.cn/workload: gateway-consul
+  labels:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-consul
+spec:
+  selector:
+    k8s.kuboard.cn/layer: gateway
+    k8s.kuboard.cn/name: gateway-consul
+  type: NodePort
+  ports:
+    - port: 8500
+      targetPort: 8500
+      protocol: TCP
+      name: consul
+      nodePort: 32080
+  sessionAffinity: None
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: svc-core
+  annotations:
+    k8s.kuboard.cn/workload: svc-core
+    deployment.kubernetes.io/revision: '2'
+    k8s.kuboard.cn/ingress: 'false'
+    k8s.kuboard.cn/service: NodePort
+  labels:
+    k8s.kuboard.cn/layer: svc
+    k8s.kuboard.cn/name: svc-core
+spec:
+  selector:
+    matchLabels:
+      k8s.kuboard.cn/layer: svc
+      k8s.kuboard.cn/name: svc-core
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        k8s.kuboard.cn/layer: svc
+        k8s.kuboard.cn/name: svc-core
+    spec:
+      securityContext:
+        seLinuxOptions: {}
+      imagePullSecrets:
+        - name: aliyun
+      restartPolicy: Always
+      serviceAccountName: default
+      initContainers: []
+      containers:
+        - image: registry.cn-hangzhou.aliyuncs.com/harryczqp/ccmall.core
+          imagePullPolicy: Always
+          name: core
+          volumeMounts: []
+          resources:
+            limits:
+            requests:
+          env: []
+          lifecycle: {}
+      volumes: []
+      dnsPolicy: ClusterFirst
+      dnsConfig: {}
+      terminationGracePeriodSeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  replicas: 1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: svc-core
+  annotations:
+    k8s.kuboard.cn/workload: svc-core
+  labels:
+    k8s.kuboard.cn/layer: svc
+    k8s.kuboard.cn/name: svc-core
+spec:
+  selector:
+    k8s.kuboard.cn/layer: svc
+    k8s.kuboard.cn/name: svc-core
+  type: NodePort
+  ports:
+    - port: 5123
+      targetPort: 5123
+      protocol: TCP
+      name: port
+      nodePort: 30168
+  sessionAffinity: None
+
+---
+metadata:
+  name: aliyun
+  namespace: default
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2020-07-30T05:43:36Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:.dockerconfigjson': {}
+        'f:type': {}
+data:
+  .dockerconfigjson: >-
+    eyJhdXRocyI6eyJodHRwczovL3JlZ2lzdHJ5LmNuLWhhbmd6aG91LmFsaXl1bmNzLmNvbSI6eyJ1c2VybmFtZSI6IjYzNTQ1Mjg4NUBxcS5jb20iLCJwYXNzd29yZCI6ImN6cTEyMzY1NCIsImF1dGgiOiJOak0xTkRVeU9EZzFRSEZ4TG1OdmJUcGplbkV4TWpNMk5UUT0ifX19
+type: kubernetes.io/dockerconfigjson
+kind: Secret
+apiVersion: v1
+

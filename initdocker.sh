@@ -63,4 +63,21 @@ docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/doc
 # firewall-cmd reload
 
 # 安装ssr
-# docker run -e PASSWORD=12345678 --net=host --restart=always -d shadowsocks/shadowsocks-libev
+# docker run --name shadowsocks -e PASSWORD=12345678 --net=host --restart=always -d shadowsocks/shadowsocks-libev 
+docker run -idt \
+           --restart always \
+           --net=host --name shadowsocksManage \
+           -v ~/.ssmgr:/root/.ssmgr \
+           gyteng/ssmgr \
+           ssmgr \
+           -t s \
+           -s 127.0.0.1:6001 \
+           -m 0.0.0.0:6002 \
+           -p 123456 \
+           -r libev:aes-256-cfb
+		   
+		   
+docker run --name ssmgr -idt --net host \
+-v ~/.ssmgr:/root/.ssmgr \
+gyteng/ssmgr \
+ssmgr -c /root/.ssmgr/config/setting
